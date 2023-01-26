@@ -25,3 +25,9 @@ print(str5.isalpha())
 
 str6 = "amit"
 print(str6.islower())
+
+str7 = "Rajkiya Engineering College Banda"
+print(str7.istitle())
+
+str7 = "Rajkiya engineering College banda"
+print(str7.title())
