@@ -41,3 +41,6 @@ print(s)
 # Revers Charecter
 g = "Amit Kumar"[::-1]
 print(g)
+
+
+

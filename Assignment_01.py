@@ -28,6 +28,7 @@ print(a.strip())
 # 	c="krishna"
 # 	d="kumar"
 # 	Result: krishnakumar
+
 c="krishna"
 d="kumar"
 print(c+d)

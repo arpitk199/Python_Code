@@ -31,3 +31,7 @@ print(str7.istitle())
 
 str7 = "Rajkiya engineering College banda"
 print(str7.title())
+
+# using split() method convert a string into list 
+myString = "My name is Arpit Kumar and i am From Kanpur Dehat"
+print(myString.split())
