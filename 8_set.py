@@ -55,6 +55,7 @@ set4.discard("Mango")
 print(set4)
 
 # Remove a random item by using the pop() method:
+# note: array store value but other collection like list tuple set store id othe element
 set5={"Apple","Mango","Bnana"}
 set5.pop()
 print(set5)
@@ -89,6 +90,10 @@ y={"Amit","Arpit","Apple"}
 z=x.intersection(y)
 print(z)
 
+p={1,3,4,5,6}
+q={1,2,6,7,8,9}
+print(p.intersection(q))
+
 # Keep All, But NOT the Duplicates
 # The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
 x = {"apple", "banana", "cherry"}
@@ -101,3 +106,4 @@ l = {"apple", "banana", "cherry"}
 m = {"google", "microsoft", "apple"}
 n=l.symmetric_difference(m)
 print(n)
+
