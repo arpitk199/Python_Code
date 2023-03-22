@@ -145,3 +145,15 @@ print("myListt",myListt)
 myList = ["Apple", "Orange", "Banana", "Kiwi", "Graps"]
 myListt1=list(myList)
 print("myListt1", myListt1)
+
+
+li = [40,44,1,3,88,99,6]
+# print(max(li),min(li))
+for i in range(0,8):
+    print(li[i])
+
+
+k1 = ["Apple", "Orange", "Banana", "Kiwi", "Graps"]
+for i in range(1,6):
+    print(k1[i])
+
